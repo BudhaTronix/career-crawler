@@ -1,0 +1,9 @@
+MODE: development
+ENABLE_EXTERNAL_SCRAPING: false
+AUTO_APPLY: false
+LEARNING_RESOURCES_PER_SKILL: 2
+LLM_PROVIDER: none
+SCHEDULER_CRON: "0 3 * * *"
+DATABASE_URL: "sqlite:///./career_crawler.db"
+REPORTS_DIR: "reports/output"
+MOCK_PAGES_DIR: "tests/mock_pages"
