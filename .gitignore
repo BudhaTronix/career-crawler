@@ -1,0 +1,21 @@
+# Bytecode / cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment files
+.env
+
+# Local runtime artifacts
+*.db
+reports/output/
+reports/uploads/
+
+# OS/editor noise
+.DS_Store
+.vscode/
+.idea/
